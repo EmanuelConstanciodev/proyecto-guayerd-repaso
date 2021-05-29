@@ -1,26 +1,43 @@
-*
+.flyingImage
 {
-    padding: 0%;
-    margin: 0%;   
+    position: absolute;
+    top: 2000px;
+    width: 100%;    
 }
 
 
-.containerNav
-{  
+.flyingsSection
+{
+    top:  2600px;
+    position: absolute;
+}
+
+
+.flyingsContainer
+{
+    padding-top: 10px;
     padding-bottom: 0;
     border-radius: 5%;
     width: 300px;
     text-align: center;
     display: inline-block;
     flex-wrap: wrap;
-    height: 400px;     
+    position:absolute;
+    height: 260px;    
 }
 
 
-.boxNav
+.information
 {
-    width: 300px;
-    height: 600px;
+    margin: 5px;
+    font-size: 17px;
+}
+
+
+.flyingBox
+{
+    width: 200px;
+    height: 200px;
     position: relative;
     overflow: hidden;
     margin: 0px;
@@ -30,14 +47,14 @@
 }
 
 
-.boxNav img
+.flyingBox img
 {
     width: 100%;
     height: 100%;
 }
 
 
-.capaNav
+.flyingCap
 {
     position:absolute;
     top: 0;
@@ -46,28 +63,28 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     display: flex;
-    justify-content: center;   
+    justify-content: center;
     align-items: center;
     transform: scale(0);
     transition: .3s ease;
 }
 
 
-.linkNav
+.link
 {
     text-decoration: none;
     color: #fff
 }
 
 
-.boxNav:hover .capaNav
+.flyingBox:hover .flyingCap
 {
     transform: scale(1);
-    background-color: rgba(3, 15, 15 0.5);
+    background-color: rgb(247, 47, 230);
 }
 
 
-.containerNav
+.flyingsContainer
 {
     -webkit-transform: scale(1,1);
     -webkit-transition-timing-function: ease-out;
@@ -78,40 +95,60 @@
 }
 
 
-.containerNav:hover
+.flyingsContainer:hover
 {
     -webkit-transform: scale(1.12,1.12);
     -webkit-transition-timing-function: ease-out;
     -webkit-transition-timing-function: 100ms;
     -moz-transform: scale(1.12,1.12);
     -moz-transition-timing-function: ease-out;
-    -moz-transition-duration: 100ms; 
+    -moz-transition-duration: 100ms;
+
+    background-color:rgba(228, 230, 230, 0.6);
 }
 
 
-#acuaticos
+
+#eagle
 {
     left: 30px;
     top: 30px;  
 }
 
 
-#terrestres
+#parrot
 {
     left: 430px;
     top: 30px;
 }
 
-
-#anfibios
+#owl
 {
     left: 830px;
     top: 30px;
 }
 
 
-#voladores
+#toucan
 {
     left: 30px;
     top: 325px;    
 }
+
+
+
+#dove
+{
+    left: 430px;
+    top: 325px;
+}
+
+
+
+#macaw
+{
+    left: 830px;
+    top: 325px;
+}
+
+

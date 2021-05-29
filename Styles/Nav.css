@@ -1,4 +1,5 @@
-.menu{
+.menu
+{
 	display: flex;
 	position: absolute;
 	top: 0px;
@@ -7,11 +8,12 @@
 	width: auto;
 	background-color: #093347;
 	transition: all .5s;
-	transform: translateX(-100%);
-    
+	transform: translateX(-100%);    
 }
 
-.menu a{
+
+.menu a
+{
 	display: block;
 	color: #fff;
 	height: 20px;
@@ -23,7 +25,8 @@
 }
 
 
-.tittle{
+.tittle
+{
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 750;
@@ -32,11 +35,14 @@
 }
 
 
-#menu-bar{
+#menu-bar
+{
 	display: none;  
 }
 
-header label{
+
+header label
+{
 	float: right;
 	font-size: 35px;
 	margin: 6px 0;
@@ -45,13 +51,14 @@ header label{
     width: 40px;
 }
 
-.menu a:hover{
+
+.menu a:hover
+{
 	background: rgba(255,255,255,.3);
 }
 
 
-#menu-bar:checked ~.menu{
+#menu-bar:checked ~.menu
+{
 	transform: translateX(120%);
 }
-
-

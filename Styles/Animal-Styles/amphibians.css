@@ -1,26 +1,44 @@
-*
+.amphibiansBanner
 {
-    padding: 0%;
-    margin: 0%;   
+    position: absolute;
+    top: 800px;
+    height: 250px;
+     
 }
+ 
 
+ .sectionAmphibians
+{
+    position: absolute;
+    top: 1200px;
+}
+ 
 
-.containerNav
-{  
+.container
+{
+    padding-top: 10px;
     padding-bottom: 0;
     border-radius: 5%;
     width: 300px;
     text-align: center;
     display: inline-block;
     flex-wrap: wrap;
-    height: 400px;     
+    position:absolute;
+    height: 260px;
 }
+ 
 
-
-.boxNav
+.information
 {
-    width: 300px;
-    height: 600px;
+    margin: 5px;
+    font-size: 17px;
+}
+ 
+
+.box
+{
+    width: 200px;
+    height: 200px;
     position: relative;
     overflow: hidden;
     margin: 0px;
@@ -28,16 +46,16 @@
     padding: 0;
     left: 50px;
 }
+ 
 
-
-.boxNav img
+.box img
 {
     width: 100%;
     height: 100%;
 }
+ 
 
-
-.capaNav
+.cap
 {
     position:absolute;
     top: 0;
@@ -46,29 +64,29 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     display: flex;
-    justify-content: center;   
+    justify-content: center;    
     align-items: center;
     transform: scale(0);
     transition: .3s ease;
 }
 
-
-.linkNav
+ 
+.link
 {
     text-decoration: none;
     color: #fff
 }
+ 
 
-
-.boxNav:hover .capaNav
+.box:hover .cap
 {
     transform: scale(1);
-    background-color: rgba(3, 15, 15 0.5);
+    background-color: aqua;
 }
-
-
-.containerNav
-{
+ 
+ 
+.container
+{   
     -webkit-transform: scale(1,1);
     -webkit-transition-timing-function: ease-out;
     -webkit-transition-duration: 250ms;
@@ -76,42 +94,60 @@
     -moz-transition-timing-function: ease-out;
     -moz-animation-duration: 250ms;
 }
+ 
 
-
-.containerNav:hover
+.container:hover
 {
     -webkit-transform: scale(1.12,1.12);
     -webkit-transition-timing-function: ease-out;
     -webkit-transition-timing-function: 100ms;
     -moz-transform: scale(1.12,1.12);
     -moz-transition-timing-function: ease-out;
-    -moz-transition-duration: 100ms; 
+    -moz-transition-duration: 100ms;
+
+    background-color:rgba(228, 230, 230, 0.6);
 }
-
-
-#acuaticos
+ 
+ 
+#axolotl
 {
     left: 30px;
     top: 30px;  
 }
-
-
-#terrestres
+ 
+ 
+#dartFrog
 {
     left: 430px;
     top: 30px;
 }
+ 
 
-
-#anfibios
+#treeFrog
 {
     left: 830px;
     top: 30px;
 }
-
-
-#voladores
+ 
+ 
+#salamander
 {
     left: 30px;
-    top: 325px;    
+    top: 325px;
 }
+ 
+ 
+ #toad
+{
+    left: 430px;
+    top: 325px;
+}
+ 
+ 
+ #giantToad
+{
+    left: 830px;
+    top: 325px;
+}
+ 
+ 

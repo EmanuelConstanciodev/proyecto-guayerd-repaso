@@ -1,5 +1,8 @@
 
-footer{
+footer
+{
+    position: absolute;
+    top: 500px;
     text-align: center;
     padding: 20px;
     margin: 20px 0px 0px 0px;
