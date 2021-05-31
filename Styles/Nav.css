@@ -3,12 +3,12 @@
 	display: flex;
 	position: absolute;
 	top: 0px;
-	left: 0;
+	left: 11px;
     height: 50px;
 	width: auto;
 	background-color: #093347;
 	transition: all .5s;
-	transform: translateX(-100%);    
+	transform: translateX(-120%);    
 }
 
 
@@ -25,13 +25,11 @@
 }
 
 
-.tittle
+header .tittle
 {
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 750;
-    text-decoration: none;
-    color: #fff;
+	position: absolute;
+	width: 3%;
+	top: 7px;
 }
 
 
@@ -49,6 +47,30 @@ header label
 	cursor: pointer;
     height: 5px;
     width: 40px;
+
+}
+
+
+header #bar
+{
+	-webkit-transform: scale(1,1);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 250ms;
+	-moz-transform: scale(1,1);
+	-moz-transition-timing-function: ease-out;
+	-moz-animation-duration: 250ms;
+}
+
+
+header #bar:hover
+{
+	color: black;
+	-webkit-transform: scale(1.12,1.12);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-timing-function: 100ms;
+    -moz-transform: scale(1.12,1.12);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 100ms;
 }
 
 

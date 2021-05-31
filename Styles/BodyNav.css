@@ -13,7 +13,8 @@
     text-align: center;
     display: inline-block;
     flex-wrap: wrap;
-    height: 400px;     
+    height: 420px;  
+      
 }
 
 
@@ -21,12 +22,13 @@
 {
     width: 300px;
     height: 600px;
-    position: relative;
+    position: absolute;
     overflow: hidden;
     margin: 0px;
     border: none;
     padding: 0;
-    left: 50px;
+    left: 60px;
+    top: 25px;
 }
 
 
@@ -37,7 +39,7 @@
 }
 
 
-.capaNav
+.capNav
 {
     position:absolute;
     top: 0;
@@ -60,7 +62,7 @@
 }
 
 
-.boxNav:hover .capaNav
+.boxNav:hover .capNav
 {
     transform: scale(1);
     background-color: rgba(3, 15, 15 0.5);
@@ -89,28 +91,29 @@
 }
 
 
-#acuaticos
+#aquatic
 {
-    left: 30px;
-    top: 30px;  
+    left: 430px;
+    top: 30px;   
 }
 
 
-#terrestres
+#terrestrial
 {
-    left: 430px;
+   
+    left: 30px;
     top: 30px;
 }
 
 
-#anfibios
+#amphibians
 {
     left: 830px;
     top: 30px;
 }
 
 
-#voladores
+#flying
 {
     left: 30px;
     top: 325px;    

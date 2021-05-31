@@ -30,7 +30,7 @@
 .information
 {
     margin: 5px;
-    font-size: 17px;
+    font-size: 12px;
 }
 
 
@@ -108,7 +108,6 @@
 }
 
 
-
 #eagle
 {
     left: 30px;
@@ -136,13 +135,11 @@
 }
 
 
-
 #dove
 {
     left: 430px;
     top: 325px;
 }
-
 
 
 #macaw

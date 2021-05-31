@@ -2,9 +2,20 @@
 footer
 {
     position: absolute;
-    top: 500px;
+    top: 6780px;
     text-align: center;
     padding: 20px;
     margin: 20px 0px 0px 0px;
-    background-color: #093347;;
+    background-color: #093347;
+    width: 100%;
 }
+
+
+footer label
+{
+    width: 30px;
+    cursor: pointer;
+    color: black;
+  
+}
+

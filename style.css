@@ -1,23 +1,24 @@
 @import url(Styles/Nav.css);
-@import url(Styles/Form.css);
 @import url(Styles/Animals.css);
 @import url(Styles/Footer.css);
 @import url(Styles/BodyNav.css);
+@import url(Styles/Form.css);
+@import url(Styles/TittleAnimation.css);
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 
-*
+body
 {
     margin: 0;
     padding: 0%;
+	background-color: #0f0f0f;
 }
 
 
 body
 {
-	font-family: 'Poppins', sans-serif;
-	background-color: #0f0f0f;
+	font-family: 'Roboto', sans-serif;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
@@ -35,17 +36,13 @@ header
 	z-index: 100;
 }
 
+
 .contenedor
 {
 	width: 98%;
 	margin:auto;
 }
 
-
-h1
-{
-	float: left;
-}
 
 header .contenedor
 {
